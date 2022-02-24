@@ -1,8 +1,6 @@
-import axios from 'axios'
 import React, { useState } from 'react'
 import { Button, Card, Modal } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import Details from './Details'
+
 
 function Carte({ el, nom }) {
     const [show, setShow] = useState(false);

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Button, Card, ListGroup, Modal } from 'react-bootstrap'
-import { useNavigate } from 'react-router-dom'
+import React, {  useState } from 'react'
+import { Button, Modal } from 'react-bootstrap'
 
 function Details() {
 
@@ -8,7 +7,7 @@ function Details() {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    const navigate = useNavigate()
+
 
 
     return (
